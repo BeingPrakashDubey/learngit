@@ -1,0 +1,179 @@
+@media (max-width: 767px) {
+    p{
+        font-size: 12px;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        background-color: #162e44;
+        overflow-x: hidden;
+        transition: 0.5s;
+        height: 100%;
+      }
+.NavButton {
+    display: block !important;
+    text-align: right;
+    height: 100%;
+    margin-left: auto;
+}
+.NavLink ul {
+        display: block !important;
+    }
+.NavLink {
+        margin-left: inherit;
+        text-align: block;
+        width: 100%;
+    }
+.NavLink ul li a{
+        display: block;
+    }
+.NavLink ul li a:hover{
+        background: rgba(255, 255, 255, 0.11) !important;
+    }
+/* .logo {
+        width: 31%;
+    }
+.Navigation {
+        width: 69%;
+    }*/
+    .ForMobile{
+        display: block;
+    }
+    .ForWeb{
+        display: none;
+    }
+.Header .row .Navigation .NavButton button {
+    background-color: #e20001;
+    color: #fff;
+    padding: 7px 15px;
+    position: relative;
+    bottom: 0;
+    top: calc(100% - 48px);
+    height: 48px;
+}
+    #Navigation .NavLink ul li {
+    display: block;
+}
+.NavLink {
+    width: 100%;
+}
+.SocialIcon {
+    display: block;
+    margin-left: 0;
+}
+.SocialIcon ul{
+    padding-left: 0px
+}
+.Header .row .logo {
+    width: 47%;
+}
+.Header .row .Navigation {
+    width: 100%;
+}
+.HeaderDetails {
+    display: none;
+}
+.ForMobile .HeaderDetails {
+    display: block;
+}
+    .slick-next.slick-arrow {
+        right: 0%;
+        z-index: 9;
+        left: inherit;
+    }
+    .slick-prev.slick-arrow {
+        left: 0%;
+        right: inherit;
+        z-index: 9;
+    }
+
+.slider {
+    margin: inherit;
+}
+.SubscribeText h4 {
+    font-size: 24px;
+}
+.SubscribeText p{
+    margin: 0px;
+}
+.SubscribeText button{
+    padding: 0px;
+}
+.Title p {
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.Title h2 {
+    letter-spacing: 6px;
+    font-size: 22px;
+    line-height: 21px;
+    margin-top: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 0px;
+}
+.Title h4 {
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 7px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+.TestimonialText h6 {
+    padding-bottom: 0px;
+}
+.TestimonialText h4 {
+    margin-bottom: 4px;
+}
+.Footer .col-md-4 {
+    margin-bottom: 30px;
+}
+.Copyright {
+    text-align: center !important;
+}
+.col-md-6.text-right {
+    text-align: center !important;
+}
+.Banner .carousel-item img {
+    width: auto;
+    height: 100%;
+}
+.PackageInclude {
+    position: initial;
+    top: 50%;
+    right: 0%;
+    -webkit-transform: translate(-0%,-50%);
+    transform: initial;
+    -ms-transform: translate(-0%,-50%);
+    background: #ffffffc2;
+    padding: 15px;
+    border-radius: 4px;
+    width: 100%;
+    border: 1px solid #01b3a7;
+}
+.PackageDetails {
+     position: relative; 
+    top: 50%;
+    left: 0%;
+    /* -webkit-transform: translate(-0%,-50%); */
+    /* transform: translate(-0%,-50%); */
+    -ms-transform: translate(-0%,-50%);
+    /* background: #ffffffc2; */
+    padding: 15px 0px;
+    border-radius: 4px;
+}
+.BannerContent .container, .BannerContent .row, .BannerContent .row .col-md-7, .BannerContent .row .col-md-4 {
+    height: initial;
+    position: relative;
+}
